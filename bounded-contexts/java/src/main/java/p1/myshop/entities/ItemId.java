@@ -1,7 +1,13 @@
 package p1.myshop.entities;
 
 public class ItemId {
+    private final String id;
+
+    private ItemId(String id) {
+        this.id = id;
+    }
+
     public static ItemId from(String s) {
-        return null;
+        return new ItemId(s);
     }
 }
