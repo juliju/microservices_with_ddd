@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace MyShop.Services.ShoppingCart
-{
+{ 
     public class Cart
     {
         public Cart(IEnumerable<CartItem> items)
