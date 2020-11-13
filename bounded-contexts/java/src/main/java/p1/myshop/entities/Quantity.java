@@ -10,4 +10,8 @@ public class Quantity {
     public static Quantity from(int quantity) {
         return new Quantity(quantity);
     }
+
+    public Quantity add(int i) {
+        return new Quantity(quantity + i);
+    }
 }
