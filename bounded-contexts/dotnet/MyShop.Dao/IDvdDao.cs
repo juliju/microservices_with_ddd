@@ -6,5 +6,6 @@ namespace MyShop.Dao
 {
     public interface IDvdDao
     {
+        Dvd find(ItemId itemId);
     }
 }
