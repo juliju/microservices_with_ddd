@@ -1,6 +1,8 @@
-package p1.myshop.services.shoppingcart;
+package p1.myshop.shoppingcart.services;
 
-import p1.myshop.entities.*;
+import p1.myshop.catalog.entities.Item;
+import p1.myshop.shoppingcart.entities.Cart;
+import p1.myshop.shoppingcart.entities.User;
 
 import java.util.Collections;
 

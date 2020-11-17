@@ -1,4 +1,4 @@
-package p1.myshop.entities;
+package p1.myshop.shoppingcart.entities;
 
 public class Quantity {
     private final int quantity;

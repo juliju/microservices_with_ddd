@@ -1,9 +1,9 @@
-package p1.myshop.services.shipping;
+package p1.myshop.shipping.services;
 
-import p1.myshop.entities.HasWeight;
-import p1.myshop.services.catalog.CatalogService;
-import p1.myshop.entities.Cart;
-import p1.myshop.entities.CartItem;
+import p1.myshop.catalog.entities.HasWeight;
+import p1.myshop.catalog.services.CatalogService;
+import p1.myshop.shoppingcart.entities.Cart;
+import p1.myshop.shoppingcart.entities.CartItem;
 
 public class DeliveryService {
     private final CatalogService catalogService;

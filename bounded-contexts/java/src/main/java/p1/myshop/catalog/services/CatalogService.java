@@ -1,9 +1,9 @@
-package p1.myshop.services.catalog;
+package p1.myshop.catalog.services;
 
-import p1.myshop.dao.BookDAO;
-import p1.myshop.dao.DvdDAO;
-import p1.myshop.entities.Item;
-import p1.myshop.entities.ItemId;
+import p1.myshop.catalog.dao.BookDAO;
+import p1.myshop.catalog.dao.DvdDAO;
+import p1.myshop.catalog.entities.Item;
+import p1.myshop.shoppingcart.entities.ItemId;
 
 public class CatalogService {
     private BookDAO bookDao;

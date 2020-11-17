@@ -1,4 +1,6 @@
-package p1.myshop.entities;
+package p1.myshop.catalog.entities;
+
+import p1.myshop.shoppingcart.entities.ItemId;
 
 public class Dvd implements Item {
     private ItemId itemId;

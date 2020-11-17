@@ -1,4 +1,6 @@
-package p1.myshop.entities;
+package p1.myshop.shoppingcart.entities;
+
+import p1.myshop.catalog.entities.Item;
 
 import java.util.List;
 
