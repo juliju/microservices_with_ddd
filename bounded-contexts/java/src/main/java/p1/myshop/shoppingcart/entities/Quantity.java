@@ -14,4 +14,8 @@ public class Quantity {
     public Quantity add(int i) {
         return new Quantity(quantity + i);
     }
+
+    public int getQuantity() {
+        return quantity;
+    }
 }

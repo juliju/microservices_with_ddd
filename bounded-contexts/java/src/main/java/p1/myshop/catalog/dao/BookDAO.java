@@ -1,8 +1,8 @@
 package p1.myshop.catalog.dao;
 
 import p1.myshop.catalog.entities.Book;
-import p1.myshop.shoppingcart.entities.ItemId;
+import p1.myshop.catalog.entities.ProductId;
 
 public interface BookDAO {
-    Book find(ItemId itemId);
+    Book find(ProductId productId);
 }

@@ -1,24 +1,23 @@
 package p1.myshop.shoppingcart.entities;
 
-import p1.myshop.catalog.entities.Item;
 
 import java.util.List;
 
 
 public class Cart {
     private User user;
-    private List<CartItem> items;
+    private List<CartLine> items;
 
-    public Cart(User user, List<CartItem> items) {
+    public Cart(User user, List<CartLine> items) {
         this.user = user;
         this.items = items;
     }
 
-    public List<CartItem> items() {
+    public List<CartLine> items() {
         return items;
     }
 
-    public void appendItem(Item item) {
+    public void appendItem(CartItemId item) {
         // TODO add new item or increment quantity
     }
 }

@@ -1,18 +1,17 @@
 package p1.myshop.catalog.entities;
 
-import p1.myshop.shoppingcart.entities.ItemId;
 
-public class Dvd implements Item {
-    private ItemId itemId;
+public class Dvd implements Product {
+    private ProductId productId;
     private String ean;
 
-    public Dvd(ItemId itemId, String ean) {
-        this.itemId = itemId;
+    public Dvd(ProductId productId, String ean) {
+        this.productId = productId;
         this.ean = ean;
     }
 
     @Override
-    public ItemId itemId() {
+    public ProductId itemId() {
         return null;
     }
 

@@ -1,19 +1,18 @@
 package p1.myshop.catalog.entities;
 
-import p1.myshop.shoppingcart.entities.ItemId;
 
-public class Book implements Item {
-    private ItemId itemId;
+public class Book implements Product {
+    private ProductId productId;
     private String ean;
 
-    public Book(ItemId itemId, String ean) {
-        this.itemId = itemId;
+    public Book(ProductId productId, String ean) {
+        this.productId = productId;
         this.ean = ean;
     }
 
     @Override
-    public ItemId itemId() {
-        return this.itemId;
+    public ProductId itemId() {
+        return this.productId;
     }
 
     @Override
