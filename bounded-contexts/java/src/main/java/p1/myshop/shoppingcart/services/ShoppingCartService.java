@@ -1,6 +1,6 @@
 package p1.myshop.shoppingcart.services;
 
-import p1.myshop.shipping.services.DeliveryApi;
+import p1.myshop.shipping.api.Delivery;
 import p1.myshop.shoppingcart.entities.Cart;
 import p1.myshop.shoppingcart.entities.CartItemId;
 import p1.myshop.shoppingcart.entities.User;
@@ -8,10 +8,10 @@ import p1.myshop.shoppingcart.entities.User;
 import java.util.Collections;
 
 public class ShoppingCartService {
-    private final DeliveryApi deliveryApi;
+    private final Delivery delivery;
 
     public ShoppingCartService() {
-        this.deliveryApi = new DeliveryApi();
+        this.delivery = new Delivery();
     }
 
     public Cart findUserCart(User user) {
@@ -24,7 +24,7 @@ public class ShoppingCartService {
     }
 
     public void calculateWeight(Cart cart) {
-        deliveryApi.calculateOrderWeight(cart);
+        delivery.calculateOrderWeight(cart);
     }
 
 }

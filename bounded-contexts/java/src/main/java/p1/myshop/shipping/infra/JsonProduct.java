@@ -1,4 +1,4 @@
-package p1.myshop.shipping.dto;
+package p1.myshop.shipping.infra;
 
 public class JsonProduct {
     public static JsonProduct fromString(String body) {

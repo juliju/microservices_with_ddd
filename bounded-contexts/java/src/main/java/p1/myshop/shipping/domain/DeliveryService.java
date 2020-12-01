@@ -1,7 +1,7 @@
-package p1.myshop.shipping.services;
+package p1.myshop.shipping.domain;
 
-import p1.myshop.shipping.entities.DeliveryRequest;
-import p1.myshop.shipping.entities.HasWeight;
+import p1.myshop.shipping.domain.entities.DeliveryRequest;
+import p1.myshop.shipping.domain.entities.HasWeight;
 
 
 public class DeliveryService {

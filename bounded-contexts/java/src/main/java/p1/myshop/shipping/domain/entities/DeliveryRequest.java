@@ -1,4 +1,4 @@
-package p1.myshop.shipping.entities;
+package p1.myshop.shipping.domain.entities;
 
 import java.util.List;
 import java.util.stream.Collectors;
