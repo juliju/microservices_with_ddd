@@ -9,11 +9,11 @@ namespace MyShop.Services.ShoppingCart
     {
         public CartItem(ItemId itemId, int quantity)
         {
-            ItemId = itemId;
+            cartItemId = itemId.toCartItem();
             Quantity = quantity;
         }
 
-        public ItemId ItemId { get; }
+        public CartItemId cartItemId { get; }
         public int Quantity { get; }
     }
 }
