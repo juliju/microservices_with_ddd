@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Shipping\Entities\CartShipping.cs" />
+    <Compile Remove="Shipping\Entities\ShippingLine.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Catalog\Service\NewFile1.txt" />
+    <None Remove="Shipping\Entities\NewFile1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Shipping\API\" />
     <Folder Include="Shipping\Service\" />
     <Folder Include="ShoppingCart\Entities\" />
     <Folder Include="ShoppingCart\Service\" />

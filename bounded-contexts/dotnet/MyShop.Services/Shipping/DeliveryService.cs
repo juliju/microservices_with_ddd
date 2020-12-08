@@ -8,12 +8,12 @@ namespace MyShop.Services.Shipping
 {
     public class DeliveryService
     {
-        public DeliveryService(CatalogService catalogService)
+        public DeliveryService(ICatalogService catalogService)
         {
             CatalogService = catalogService;
         }
 
-        public CatalogService CatalogService { get; }
+        public ICatalogService CatalogService { get; }
 
         public double CalculateOrderWeight(Cart cart)
         {

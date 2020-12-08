@@ -3,7 +3,7 @@ using System;
 
 namespace MyShop.Services
 {
-    public class CatalogService : ICatalogService
+    public class CatalogServiceBdd : ICatalogService
     {
         public IItem LoadItem(ItemId itemId)
         {
